@@ -37,7 +37,7 @@ export function LoginPage({ onLogin }: LoginPageProps) {
         {/* Logo Section */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center justify-center mt-5 bg-[#ffffff] mb-2">
-            <img width="200px" className='ml-10 h-auto drop-shadow-lg shadow-[#52796f]/30' src="/sapi.png" alt="Livsence">
+            <img width="200px" className='ml-10 h-auto drop-shadow-lg shadow-[#52796f]/30' src={`${import.meta.env.BASE_URL}sapi.png`} alt="Livsence">
              </img>
           </div>
           <h1 className="text-3xl font-bold text-gray-900 tracking-tight">
